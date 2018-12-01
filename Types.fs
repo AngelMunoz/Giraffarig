@@ -14,9 +14,6 @@ type User = { Id: BsonObjectId;  Name: string; LastName: string; Role: string; E
 type UserDTO = { Id: BsonObjectId;  Name: string; LastName: string; Role: string; Email: string; }
 
 [<CLIMutable>]
-type Product = { Id: BsonObjectId;  Name: string; Description: string; }
-
-[<CLIMutable>]
 type LoginResponse = { Token: string; User: UserDTO }
 
 
