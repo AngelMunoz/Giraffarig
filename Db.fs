@@ -12,4 +12,3 @@ let client = new MongoClient(connectionString)
 let db = client.GetDatabase(DatabaseName)
 
 let UserCollection = db.GetCollection<User> "fs_users"
-let ProductCollection = db.GetCollection<Product> "fs_products"
