@@ -9,7 +9,7 @@ This is a F# Skeleton for some of my personal projects using .net core and Giraf
 
 
 #### Disclaimer
-I'm not good at F#, and I think this language finally clicked on me, with this sample API.
+I'm not good at F#. I think this language finally clicking on me with this sample API.
 I think I should be able to start digging deeper into F# for more use cases than just a simple Jwt Login now.
 
 #### Found Something Wrong?
