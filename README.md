@@ -1,6 +1,10 @@
+[MongoDB]: https://www.mongodb.com/
+[Giraffe]: https://github.com/giraffe-fsharp/Giraffe
+[.Net Core]: https://dotnet.microsoft.com/download
+
 # Giraffarig!
 
-This is a F# Skeleton for some of my personal projects using .net core and Giraffe.
+This is a F# Skeleton for some of my personal projects using [.Net Core], [MongoDB] and [Giraffe].
 
 ### Things to do after cloning
 - Don't forget to rename your `Giraffarig` references yo your project's name
