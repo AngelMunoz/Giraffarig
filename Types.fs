@@ -1,19 +1,35 @@
 module Types
+
 open MongoDB.Bson
 
-type LoginPayload = { Email: string; Password: string; }
+type LoginPayload =
+    { Email: string
+      Password: string }
 
 /// Basic Endpoint result for most of the listable endpoints
 [<CLIMutable>]
-type EndpointResult<'T> = { Count: int64; List: List<'T>; }
+type EndpointResult<'T> =
+    { Count: int64
+      List: List<'T> }
 
 [<CLIMutable>]
-type User = { Id: BsonObjectId;  Name: string; LastName: string; Role: string; Email: string; Password: string; }
+type User =
+    { Id: BsonObjectId
+      Name: string
+      LastName: string
+      Role: string
+      Email: string
+      Password: string }
 
 [<CLIMutable>]
-type UserDTO = { Id: BsonObjectId;  Name: string; LastName: string; Role: string; Email: string; }
+type UserDTO =
+    { Id: BsonObjectId
+      Name: string
+      LastName: string
+      Role: string
+      Email: string }
 
 [<CLIMutable>]
-type LoginResponse = { Token: string; User: UserDTO }
-
-
+type LoginResponse =
+    { Token: string
+      User: UserDTO }
