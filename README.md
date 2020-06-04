@@ -10,6 +10,8 @@ This is a F# Skeleton for some of my personal projects using [.Net Core], [Mongo
 - Don't forget to rename your `Giraffarig` references yo your project's name
 - Change your Enviromental Variables/Variables names in `Properties/launchSettings.json` and inside the code
 - Change your Database Name in `Db.fs`
+- Run `dotnet tool restore`
+- Run `dotnet paket restore`
 
 
 #### Disclaimer

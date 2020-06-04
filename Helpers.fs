@@ -30,14 +30,8 @@ let getPagination (ctx: HttpContext) =
     limit, offset
 
 /// Takes a user and replaces it's password
-let updateUserPassword (user, password) =
-    let { Id = id; Name = name; LastName = lastname; Role = role; Email = email; Password = oldpw } = user
-    { Id = id
-      Name = name
-      LastName = lastname
-      Role = role
-      Password = password
-      Email = email }
+let updateUserPassword (user, password): User =
+    { user with Password = password }
 
 /// converts a user into a userdto
 let userToDTO (user: User): UserDTO =

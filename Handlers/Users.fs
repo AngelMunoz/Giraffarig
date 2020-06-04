@@ -1,6 +1,7 @@
 module Handlers.Users
 
-open FSharp.Control.Tasks.V2.ContextInsensitive
+open FSharp.Control.Tasks.Builders
+open System.Threading.Tasks
 open Microsoft.AspNetCore.Http
 open Db
 open Helpers

@@ -3,7 +3,8 @@ module Handlers.Auth
 open BCrypt.Net
 open Db
 open Helpers
-open FSharp.Control.Tasks.V2.ContextInsensitive
+open FSharp.Control.Tasks.Builders
+open System.Threading.Tasks
 open Giraffe
 open Microsoft.AspNetCore.Http
 open MongoDB.Driver
