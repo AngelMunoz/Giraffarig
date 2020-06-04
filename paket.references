@@ -1,0 +1,8 @@
+FSharp.Core
+Ply
+Giraffe
+Microsoft.AspNetCore.Authentication.JwtBearer
+Thoth.Json.Giraffe
+BCrypt.Net-Next
+MongoDB.Bson
+MongoDB.Driver
