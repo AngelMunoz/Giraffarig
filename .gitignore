@@ -263,3 +263,5 @@ __pycache__/
 
 # Ionide files
 .ionide/
+.paket/
+packages
