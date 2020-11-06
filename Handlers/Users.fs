@@ -1,6 +1,6 @@
 module Handlers.Users
 
-open FSharp.Control.Tasks.Builders
+open FSharp.Control.Tasks
 open System.Threading.Tasks
 open Microsoft.AspNetCore.Http
 open Db

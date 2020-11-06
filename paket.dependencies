@@ -1,9 +1,9 @@
 source https://api.nuget.org/v3/index.json
 
 nuget FSharp.Core
-nuget Ply 0.1.8
-nuget Giraffe 5.0.0-alpha-002 alpha
-nuget Microsoft.AspNetCore.Authentication.JwtBearer 3.1.6
+nuget Ply 0.3.1
+nuget Giraffe 4.1.0
+nuget Microsoft.AspNetCore.Authentication.JwtBearer 3.1.9
 nuget Thoth.Json.Giraffe 4.2.0
 nuget BCrypt.Net-Next 4.0.0
 nuget MongoDB.Bson 2.10.4
